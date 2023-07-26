@@ -22,8 +22,7 @@ function lowestPrice (input) {
     }
 
     for (const car of cars) {
-        console.log(`${car.car} -> ${car.price} (${car.city})`);
-        
+        console.log(`${car.car} -> ${car.price} (${car.city})`);  
     }
 
 }
