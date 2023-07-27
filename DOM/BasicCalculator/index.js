@@ -31,15 +31,13 @@ function performOperation(operation) {
     const imageURL = 'meme.jpg';
     document.getElementById('resultImage').src = imageURL;
 
-    // Show the image element
     document.getElementById('resultImage').style.display = 'block';
-
-    // Resize the image to 200x200 (you can adjust the size as needed)
+    
     document.getElementById('resultImage').style.width = '355px';
     document.getElementById('resultImage').style.height = '237px';
 }
 
-//Clear functionality
+//Clear functionality (Added later)
 function clearCalculator() {
     document.getElementById('num1').value = '';
     document.getElementById('num2').value = '';
