@@ -11,7 +11,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Input fields and buttons */
 input[type="number"] {
     padding: 8px;
     font-size: 16px;
@@ -36,7 +35,6 @@ button:hover {
     background-color: #1ab8db;
 }
 
-/* Result area */
 p {
     font-size: 18px;
     font-weight: bold;
