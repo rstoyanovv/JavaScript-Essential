@@ -1,0 +1,30 @@
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #616161;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+
+li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+button {
+    background-color: #8b99db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3733bf;
+}
